@@ -1,26 +1,36 @@
 {
-  "name": "kube",
-  "version": "6.1.0",
-  "description": "A web framework for professional developers and designers alike.",
-  "main": "dist/css/kube.css",
+  "name": "kube-flexbox",
+  "version": "2.0.0-alpha.1",
+  "description": "Kube CSS/SCSS framework with grid replaced by flexbox-grid",
+  "main": "gulpfile.babel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitoravelino/kube.git"
+    "url": "git+https://github.com/andreobriennz/kube-flexbox.git"
   },
   "keywords": [
-    "css",
-    "kube",
-    "framework",
-    "imperavi",
-    "sass"
+    "Kube",
+    "flexbox",
+    "CSS",
+    "SCSS"
   ],
-  "author": "Imperavi LLC",
+  "author": "Andre OBrien (https://andreobrien.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vitoravelino/kube/issues"
+    "url": "https://github.com/andreobriennz/kube-flexbox/issues"
   },
-  "homepage": "https://github.com/vitoravelino/kube#readme"
+  "homepage": "https://github.com/andreobriennz/kube-flexbox#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "minimatch": "^3.0.4"
+  }
 }
