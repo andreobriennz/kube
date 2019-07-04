@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "minimatch": "^3.0.4",
-    "snyk": "^1.83.0"
+    "snyk": "^1.192.0"
   },
   "snyk": true
 }
